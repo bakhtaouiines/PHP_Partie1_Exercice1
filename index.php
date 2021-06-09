@@ -1,16 +1,18 @@
-<?php
-        $name = 'Frodo Baggins';
-?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 1.1</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>Exercice 1 Partie 1 : Les variables PHP</h1>
-    <p><?= $name;?></p>
+    <?php
+$name = "Frodo Baggins";
+echo $name;
+?>
 </body>
+
 </html>
